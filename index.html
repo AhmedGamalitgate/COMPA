@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IT Gate  | Web Tools Comparison 2025</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+<div class="nav-container">
+<a href="#hero" class="nav-brand">
+<div class="brand-logo">
+<svg viewBox="0 0 50 50" width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+<path d="M 10 6 Q 16 5 17 15 L 17 38 Q 17 42 14 42 L 10 42" stroke="#ff8c1a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<path d="M 25 6 L 25 42 L 40 42" stroke="#1a3a8f" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 25 6 L 34 6" stroke="#1a3a8f" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<ellipse cx="25" cy="46" rx="18" ry="2" stroke="#ff8c1a" stroke-width="2" fill="none"/>
+</svg>
+</div>
+<div class="brand-text">
+<span class="brand-main">IT <span class="brand-accent">Gate</span></span>
+<span class="brand-sub"></span>
+</div>
+</a>
+<ul class="nav-links">
+<li><a href="#stacks">Stacks</a></li>
+<li><a href="#frontend">Frontend</a></li>
+<li><a href="#backend">Backend</a></li>
+<li><a href="#databases">Databases</a></li>
+<li><a href="#tooling">Tooling</a></li>
+<li><a href="#summary">Summary</a></li>
+</ul>
+<button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+</div>
+</nav>
+
+<header id="hero" class="hero">
+<div class="hero-content">
+
+<h1>Web Tools<br><span class="accent-text">Comparison 2025</span></h1>
+<p class="hero-subtitle">
+A clear, side-by-side comparison of the languages, frameworks, databases, and tools that power modern web development.
+</p>
+<a href="#stacks" class="btn-primary">See the Comparisons ↓</a>
+</div>
+</header>
+
+<section id="stacks" class="section">
+<div class="container">
+<div class="section-header">
+<span class="section-number">01</span>
+<h2>Overall Stack Comparison</h2>
+<p class="section-desc">The six major backend stacks compared head-to-head across the criteria that matter most.</p>
+</div>
+
+<div class="stack-table-wrap">
+<table class="stack-table">
+<thead>
+<tr>
+<th>Stack</th>
+<th>Usage</th>
+<th>Performance</th>
+<th>Learning</th>
+<th>Job Market</th>
+<th>Best For</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="stack-name"><span class="stack-dot dot-node"></span>Node.js</span></td>
+<td class="win">48.7%</td>
+<td><span class="pill pill-good">High</span></td>
+<td><span class="pill pill-mid">Medium</span></td>
+<td><span class="pill pill-good">Excellent</span></td>
+<td>Real-time, APIs, full-stack JS</td>
+</tr>
+<tr>
+<td><span class="stack-name"><span class="stack-dot dot-php"></span>PHP</span></td>
+<td>18.9%</td>
+<td><span class="pill pill-mid">Medium</span></td>
+<td><span class="pill pill-easy">Easy</span></td>
+<td><span class="pill pill-good">Strong</span></td>
+<td>CMS, WordPress, e-commerce</td>
+</tr>
+<tr>
+<td><span class="stack-name"><span class="stack-dot dot-dotnet"></span>.NET / C#</span></td>
+<td>27.8%</td>
+<td><span class="pill pill-good">Excellent</span></td>
+<td><span class="pill pill-mid">Medium</span></td>
+<td><span class="pill pill-good">Strong</span></td>
+<td>Enterprise, Windows ecosystem</td>
+</tr>
+<tr>
+<td><span class="stack-name"><span class="stack-dot dot-python"></span>Python</span></td>
+<td class="win">57.9%</td>
+<td><span class="pill pill-mid">Medium</span></td>
+<td><span class="pill pill-easy">Easy</span></td>
+<td><span class="pill pill-good">Excellent</span></td>
+<td>AI, data, fast APIs</td>
+</tr>
+<tr>
+<td><span class="stack-name"><span class="stack-dot dot-java"></span>Java</span></td>
+<td>29.4%</td>
+<td><span class="pill pill-good">Excellent</span></td>
+<td><span class="pill pill-hard">Steep</span></td>
+<td><span class="pill pill-good">Strong</span></td>
+<td>Banking, large enterprise systems</td>
+</tr>
+<tr>
+<td><span class="stack-name"><span class="stack-dot dot-go"></span>Go</span></td>
+<td>16.4%</td>
+<td><span class="pill pill-good">Excellent</span></td>
+<td><span class="pill pill-easy">Easy</span></td>
+<td><span class="pill pill-mid">Growing</span></td>
+<td>High-performance APIs, cloud</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="stack-cards">
+<div class="stack-card">
+<div class="stack-card-head">
+<span class="stack-icon icon-node">JS</span>
+<h3>Node.js</h3>
+</div>
+<p>The JavaScript-everywhere stack. Same language on frontend and backend. Ideal for real-time apps and modern APIs.</p>
+<div class="stack-tags">
+<span class="tag tag-blue">Express</span>
+<span class="tag tag-blue">Next.js</span>
+<span class="tag tag-blue">NestJS</span>
+</div>
+</div>
+
+<div class="stack-card">
+<div class="stack-card-head">
+<span class="stack-icon icon-php">PHP</span>
+<h3>PHP</h3>
+</div>
+<p>Still powers 43% of the web. Laravel gives it modern tooling. WordPress makes it the highest-employment backend language.</p>
+<div class="stack-tags">
+<span class="tag tag-blue">Laravel</span>
+<span class="tag tag-blue">WordPress</span>
+<span class="tag tag-blue">Symfony</span>
+</div>
+</div>
+
+<div class="stack-card">
+<div class="stack-card-head">
+<span class="stack-icon icon-dotnet">C#</span>
+<h3>.NET / C#</h3>
+</div>
+<p>Microsoft's enterprise-grade stack. Excellent performance, strong typing, and first-class tooling in Visual Studio.</p>
+<div class="stack-tags">
+<span class="tag tag-blue">ASP.NET Core</span>
+<span class="tag tag-blue">Blazor</span>
+<span class="tag tag-blue">Entity Framework</span>
+</div>
+</div>
+
+<div class="stack-card">
+<div class="stack-card-head">
+<span class="stack-icon icon-python">Py</span>
+<h3>Python</h3>
+</div>
+<p>The most desired backend language. Dominates AI and data. Django for full apps, FastAPI for high-speed APIs.</p>
+<div class="stack-tags">
+<span class="tag tag-blue">Django</span>
+<span class="tag tag-blue">FastAPI</span>
+<span class="tag tag-blue">Flask</span>
+</div>
+</div>
+
+<div class="stack-card">
+<div class="stack-card-head">
+<span class="stack-icon icon-java">Jv</span>
+<h3>Java</h3>
+</div>
+<p>The enterprise backbone. Spring Boot handles mission-critical systems in banking, insurance, and large-scale operations.</p>
+<div class="stack-tags">
+<span class="tag tag-blue">Spring Boot</span>
+<span class="tag tag-blue">Quarkus</span>
+<span class="tag tag-blue">Micronaut</span>
+</div>
+</div>
+
+<div class="stack-card">
+<div class="stack-card-head">
+<span class="stack-icon icon-go">Go</span>
+<h3>Go</h3>
+</div>
+<p>Google's modern language for cloud-native development. Blazing-fast, simple syntax, ideal for microservices and DevOps tools.</p>
+<div class="stack-tags">
+<span class="tag tag-blue">Gin</span>
+<span class="tag tag-blue">Fiber</span>
+<span class="tag tag-blue">Echo</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="frontend" class="section section-alt">
+<div class="container">
+<div class="section-header">
+<span class="section-number">02</span>
+<h2>Frontend Frameworks</h2>
+<p class="section-desc">Four main frameworks. Each one has its own strengths, weaknesses, and ideal use case.</p>
+</div>
+
+<div class="compare-grid">
+<div class="compare-card">
+<div class="compare-head">
+<span class="fw-icon fw-react">⚛</span>
+<div>
+<h3>React</h3>
+<span class="compare-tag">Most Popular</span>
+</div>
+</div>
+<div class="compare-stats">
+<div class="cstat"><span class="cstat-num">44.7%</span><span class="cstat-label">Usage</span></div>
+<div class="cstat"><span class="cstat-num">52.1%</span><span class="cstat-label">Admired</span></div>
+</div>
+<ul class="compare-list">
+<li><span class="pro">+</span> Largest ecosystem &amp; job market</li>
+<li><span class="pro">+</span> Backed by Meta</li>
+<li><span class="con">−</span> Medium learning curve</li>
+<li><span class="con">−</span> Next.js complexity complaints</li>
+</ul>
+<div class="compare-best"><strong>Best for:</strong> Large applications and maximum job opportunities.</div>
+</div>
+
+<div class="compare-card">
+<div class="compare-head">
+<span class="fw-icon fw-vue">V</span>
+<div>
+<h3>Vue.js</h3>
+<span class="compare-tag">Friendliest</span>
+</div>
+</div>
+<div class="compare-stats">
+<div class="cstat"><span class="cstat-num">17.6%</span><span class="cstat-label">Usage</span></div>
+<div class="cstat"><span class="cstat-num">50.9%</span><span class="cstat-label">Admired</span></div>
+</div>
+<ul class="compare-list">
+<li><span class="pro">+</span> Easiest learning curve</li>
+<li><span class="pro">+</span> Excellent documentation</li>
+<li><span class="pro">+</span> Perfect for small teams</li>
+<li><span class="con">−</span> Smaller job market than React</li>
+</ul>
+<div class="compare-best"><strong>Best for:</strong> Fast projects and teams new to modern frameworks.</div>
+</div>
+
+<div class="compare-card">
+<div class="compare-head">
+<span class="fw-icon fw-angular">A</span>
+<div>
+<h3>Angular</h3>
+<span class="compare-tag">Enterprise</span>
+</div>
+</div>
+<div class="compare-stats">
+<div class="cstat"><span class="cstat-num">18.2%</span><span class="cstat-label">Usage</span></div>
+<div class="cstat"><span class="cstat-num">44.7%</span><span class="cstat-label">Admired</span></div>
+</div>
+<ul class="compare-list">
+<li><span class="pro">+</span> Complete opinionated framework</li>
+<li><span class="pro">+</span> TypeScript-first design</li>
+<li><span class="pro">+</span> Backed by Google</li>
+<li><span class="con">−</span> Steep learning curve</li>
+<li><span class="con">−</span> Heavy for small projects</li>
+</ul>
+<div class="compare-best"><strong>Best for:</strong> Large enterprise applications and corporate teams.</div>
+</div>
+
+<div class="compare-card">
+<div class="compare-head">
+<span class="fw-icon fw-svelte">S</span>
+<div>
+<h3>Svelte</h3>
+<span class="compare-tag">Most Loved</span>
+</div>
+</div>
+<div class="compare-stats">
+<div class="cstat"><span class="cstat-num">7.2%</span><span class="cstat-label">Usage</span></div>
+<div class="cstat"><span class="cstat-num">62.4%</span><span class="cstat-label">Admired</span></div>
+</div>
+<ul class="compare-list">
+<li><span class="pro">+</span> Highest satisfaction rate</li>
+<li><span class="pro">+</span> Fastest performance</li>
+<li><span class="pro">+</span> Simplest syntax</li>
+<li><span class="con">−</span> Small job market</li>
+</ul>
+<div class="compare-best"><strong>Best for:</strong> Performance-focused apps and clean code lovers.</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="backend" class="section">
+<div class="container">
+<div class="section-header">
+<span class="section-number">03</span>
+<h2>Backend Languages</h2>
+<p class="section-desc">The backend world splits into JavaScript-first stacks and language-specific ecosystems.</p>
+</div>
+
+<div class="compare-grid compare-grid-3">
+<div class="compare-card">
+<div class="compare-head">
+<span class="fw-icon fw-node">JS</span>
+<div>
+<h3>Node.js</h3>
+<span class="compare-tag">Most Popular Backend</span>
+</div>
+</div>
+<div class="compare-stats">
+<div class="cstat"><span class="cstat-num">48.7%</span><span class="cstat-label">Usage</span></div>
+<div class="cstat"><span class="cstat-num">29.7%</span><span class="cstat-label">Desired</span></div>
+</div>
+<ul class="compare-list">
+<li><span class="pro">+</span> Same language as frontend</li>
+<li><span class="pro">+</span> Excellent for real-time apps</li>
+<li><span class="pro">+</span> Massive npm ecosystem</li>
+<li><span class="con">−</span> Async complexity</li>
+</ul>
+<div class="compare-best"><strong>Best for:</strong> Full-stack JavaScript, APIs, chat apps.</div>
+</div>
+
+<div class="compare-card">
+<div class="compare-head">
+<span class="fw-icon fw-python">Py</span>
+<div>
+<h3>Python</h3>
+<span class="compare-tag">AI &amp; Data Leader</span>
+</div>
+</div>
+<div class="compare-stats">
+<div class="cstat"><span class="cstat-num">57.9%</span><span class="cstat-label">Usage</span></div>
+<div class="cstat"><span class="cstat-num">39.3%</span><span class="cstat-label">Desired</span></div>
+</div>
+<ul class="compare-list">
+<li><span class="pro">+</span> Most desired to learn</li>
+<li><span class="pro">+</span> Best for AI and data</li>
+<li><span class="pro">+</span> Django &amp; FastAPI powerful</li>
+<li><span class="con">−</span> Slower than compiled languages</li>
+</ul>
+<div class="compare-best"><strong>Best for:</strong> AI apps, data pipelines, fast APIs.</div>
+</div>
+
+<div class="compare-card">
+<div class="compare-head">
+<span class="fw-icon fw-php">PHP</span>
+<div>
+<h3>PHP</h3>
+<span class="compare-tag">Web Veteran</span>
+</div>
+</div>
+<div class="compare-stats">
+<div class="cstat"><span class="cstat-num">18.9%</span><span class="cstat-label">Usage</span></div>
+<div class="cstat"><span class="cstat-num">9.2%</span><span class="cstat-label">Desired</span></div>
+</div>
+<ul class="compare-list">
+<li><span class="pro">+</span> Powers 43% of the web</li>
+<li><span class="pro">+</span> Laravel is elegant</li>
+<li><span class="pro">+</span> Huge job market</li>
+<li><span class="con">−</span> Declining in new projects</li>
+</ul>
+<div class="compare-best"><strong>Best for:</strong> CMS, e-commerce, WordPress sites.</div>
+</div>
+
+<div class="compare-card">
+<div class="compare-head">
+<span class="fw-icon fw-java">Jv</span>
+<div>
+<h3>Java</h3>
+<span class="compare-tag">Enterprise Backbone</span>
+</div>
+</div>
+<div class="compare-stats">
+<div class="cstat"><span class="cstat-num">29.4%</span><span class="cstat-label">Usage</span></div>
+<div class="cstat"><span class="cstat-num">15.8%</span><span class="cstat-label">Desired</span></div>
+</div>
+<ul class="compare-list">
+<li><span class="pro">+</span> Rock-solid for banking</li>
+<li><span class="pro">+</span> Spring Boot mature</li>
+<li><span class="pro">+</span> JVM performance excellent</li>
+<li><span class="con">−</span> Verbose and steep learning</li>
+</ul>
+<div class="compare-best"><strong>Best for:</strong> Banking, enterprise, mission-critical.</div>
+</div>
+
+<div class="compare-card">
+<div class="compare-head">
+<span class="fw-icon fw-csharp">C#</span>
+<div>
+<h3>C# / .NET</h3>
+<span class="compare-tag">Microsoft Stack</span>
+</div>
+</div>
+<div class="compare-stats">
+<div class="cstat"><span class="cstat-num">27.8%</span><span class="cstat-label">Usage</span></div>
+<div class="cstat"><span class="cstat-num">19.4%</span><span class="cstat-label">Desired</span></div>
+</div>
+<ul class="compare-list">
+<li><span class="pro">+</span> Excellent performance</li>
+<li><span class="pro">+</span> Great tooling (VS)</li>
+<li><span class="pro">+</span> Strong typing and safety</li>
+<li><span class="con">−</span> Tied to Microsoft ecosystem</li>
+</ul>
+<div class="compare-best"><strong>Best for:</strong> Windows-based enterprise apps.</div>
+</div>
+
+<div class="compare-card">
+<div class="compare-head">
+<span class="fw-icon fw-go">Go</span>
+<div>
+<h3>Go</h3>
+<span class="compare-tag">Rising Star</span>
+</div>
+</div>
+<div class="compare-stats">
+<div class="cstat"><span class="cstat-num">16.4%</span><span class="cstat-label">Usage</span></div>
+<div class="cstat"><span class="cstat-num">23.4%</span><span class="cstat-label">Desired</span></div>
+</div>
+<ul class="compare-list">
+<li><span class="pro">+</span> Blazing-fast performance</li>
+<li><span class="pro">+</span> Built for microservices</li>
+<li><span class="pro">+</span> Simple syntax</li>
+<li><span class="con">−</span> Smaller web ecosystem</li>
+</ul>
+<div class="compare-best"><strong>Best for:</strong> High-performance APIs and cloud-native services.</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="databases" class="section section-alt">
+<div class="container">
+<div class="section-header">
+<span class="section-number">04</span>
+<h2>Databases</h2>
+<p class="section-desc">PostgreSQL has become the new default — a historic shift in the data world.</p>
+</div>
+
+<div class="compare-grid compare-grid-3">
+<div class="compare-card highlight">
+<div class="compare-head">
+<span class="fw-icon fw-postgres">🐘</span>
+<div>
+<h3>PostgreSQL</h3>
+<span class="compare-tag">New Default</span>
+</div>
+</div>
+<div class="compare-stats">
+<div class="cstat"><span class="cstat-num">55.6%</span><span class="cstat-label">Usage</span></div>
+<div class="cstat"><span class="cstat-num">65.5%</span><span class="cstat-label">Admired</span></div>
+</div>
+<ul class="compare-list">
+<li><span class="pro">+</span> Relational + JSON + geospatial</li>
+<li><span class="pro">+</span> Highest admiration rate</li>
+<li><span class="pro">+</span> Free &amp; open source</li>
+<li><span class="con">−</span> Complex write scaling</li>
+</ul>
+<div class="compare-best"><strong>Best for:</strong> Almost everything — the new default.</div>
+</div>
+
+<div class="compare-card">
+<div class="compare-head">
+<span class="fw-icon fw-mysql">🐬</span>
+<div>
+<h3>MySQL</h3>
+<span class="compare-tag">Classic Choice</span>
+</div>
+</div>
+<div class="compare-stats">
+<div class="cstat"><span class="cstat-num">40.5%</span><span class="cstat-label">Usage</span></div>
+<div class="cstat"><span class="cstat-num">43.2%</span><span class="cstat-label">Admired</span></div>
+</div>
+<ul class="compare-list">
+<li><span class="pro">+</span> Simple and battle-tested</li>
+<li><span class="pro">+</span> Great WordPress support</li>
+<li><span class="pro">+</span> Huge community</li>
+<li><span class="con">−</span> Being replaced by PostgreSQL</li>
+</ul>
+<div class="compare-best"><strong>Best for:</strong> Legacy web apps and WordPress.</div>
+</div>
+
+<div class="compare-card">
+<div class="compare-head">
+<span class="fw-icon fw-sqlite">📦</span>
+<div>
+<h3>SQLite</h3>
+<span class="compare-tag">Embedded King</span>
+</div>
+</div>
+<div class="compare-stats">
+<div class="cstat"><span class="cstat-num">37.5%</span><span class="cstat-label">Usage</span></div>
+<div class="cstat"><span class="cstat-num">59%</span><span class="cstat-label">Admired</span></div>
+</div>
+<ul class="compare-list">
+<li><span class="pro">+</span> Zero configuration</li>
+<li><span class="pro">+</span> Entire DB is one file</li>
+<li><span class="pro">+</span> Perfect for mobile &amp; local</li>
+<li><span class="con">−</span> Not for high concurrency</li>
+</ul>
+<div class="compare-best"><strong>Best for:</strong> Mobile apps, desktop, testing.</div>
+</div>
+
+<div class="compare-card">
+<div class="compare-head">
+<span class="fw-icon fw-mongo">🍃</span>
+<div>
+<h3>MongoDB</h3>
+<span class="compare-tag">NoSQL Leader</span>
+</div>
+</div>
+<div class="compare-stats">
+<div class="cstat"><span class="cstat-num">24%</span><span class="cstat-label">Usage</span></div>
+<div class="cstat"><span class="cstat-num">45.7%</span><span class="cstat-label">Admired</span></div>
+</div>
+<ul class="compare-list">
+<li><span class="pro">+</span> Flexible schemas</li>
+<li><span class="pro">+</span> JSON-native documents</li>
+<li><span class="pro">+</span> Fast prototyping</li>
+<li><span class="con">−</span> Weaker for complex relations</li>
+</ul>
+<div class="compare-best"><strong>Best for:</strong> Rapid prototyping and unstructured data.</div>
+</div>
+
+<div class="compare-card">
+<div class="compare-head">
+<span class="fw-icon fw-redis">⚡</span>
+<div>
+<h3>Redis</h3>
+<span class="compare-tag">Speed Layer</span>
+</div>
+</div>
+<div class="compare-stats">
+<div class="cstat"><span class="cstat-num">28%</span><span class="cstat-label">Usage</span></div>
+<div class="cstat"><span class="cstat-num">54.9%</span><span class="cstat-label">Admired</span></div>
+</div>
+<ul class="compare-list">
+<li><span class="pro">+</span> Sub-millisecond speed</li>
+<li><span class="pro">+</span> Perfect for caching</li>
+<li><span class="pro">+</span> Real-time pub/sub</li>
+<li><span class="con">−</span> Not a main database</li>
+</ul>
+<div class="compare-best"><strong>Best for:</strong> Caching, sessions, real-time features.</div>
+</div>
+
+<div class="compare-card">
+<div class="compare-head">
+<span class="fw-icon fw-duck">🦆</span>
+<div>
+<h3>DuckDB</h3>
+<span class="compare-tag">Analytics Star</span>
+</div>
+</div>
+<div class="compare-stats">
+<div class="cstat"><span class="cstat-num">3.3%</span><span class="cstat-label">Usage</span></div>
+<div class="cstat"><span class="cstat-num">58.8%</span><span class="cstat-label">Admired</span></div>
+</div>
+<ul class="compare-list">
+<li><span class="pro">+</span> Insanely fast analytics</li>
+<li><span class="pro">+</span> Embedded like SQLite</li>
+<li><span class="pro">+</span> SQL on data files</li>
+<li><span class="con">−</span> Niche use case</li>
+</ul>
+<div class="compare-best"><strong>Best for:</strong> Data analytics and OLAP workloads.</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="tooling" class="section">
+<div class="container">
+<div class="section-header">
+<span class="section-number">05</span>
+<h2>Build Tools &amp; IDEs</h2>
+<p class="section-desc">The build layer saw the biggest shift in 2025: Vite overtook Webpack, and AI-powered IDEs went mainstream.</p>
+</div>
+
+<div class="compare-grid compare-grid-3">
+<div class="compare-card highlight">
+<div class="compare-head">
+<span class="fw-icon fw-vite">⚡</span>
+<div>
+<h3>Vite</h3>
+<span class="compare-tag">Highest Satisfaction</span>
+</div>
+</div>
+<div class="compare-stats">
+<div class="cstat"><span class="cstat-num">84%</span><span class="cstat-label">Usage</span></div>
+<div class="cstat"><span class="cstat-num">98%</span><span class="cstat-label">Satisfaction</span></div>
+</div>
+<ul class="compare-list">
+<li><span class="pro">+</span> Instant hot reload</li>
+<li><span class="pro">+</span> ESM-native</li>
+<li><span class="pro">+</span> Highest-rated tool</li>
+<li><span class="con">−</span> Legacy plugins catching up</li>
+</ul>
+<div class="compare-best"><strong>Best for:</strong> Every new project — the new default.</div>
+</div>
+
+<div class="compare-card">
+<div class="compare-head">
+<span class="fw-icon fw-webpack">📦</span>
+<div>
+<h3>Webpack</h3>
+<span class="compare-tag">Legacy Standard</span>
+</div>
+</div>
+<div class="compare-stats">
+<div class="cstat"><span class="cstat-num">87%</span><span class="cstat-label">Usage</span></div>
+<div class="cstat"><span class="cstat-num">26%</span><span class="cstat-label">Satisfaction</span></div>
+</div>
+<ul class="compare-list">
+<li><span class="pro">+</span> Mature ecosystem</li>
+<li><span class="pro">+</span> Highly configurable</li>
+<li><span class="con">−</span> Slow builds</li>
+<li><span class="con">−</span> Complex configuration</li>
+</ul>
+<div class="compare-best"><strong>Best for:</strong> Legacy projects that depend on it.</div>
+</div>
+
+<div class="compare-card">
+<div class="compare-head">
+<span class="fw-icon fw-vscode">💻</span>
+<div>
+<h3>VS Code</h3>
+<span class="compare-tag">Universal IDE</span>
+</div>
+</div>
+<div class="compare-stats">
+<div class="cstat"><span class="cstat-num">73%</span><span class="cstat-label">Usage</span></div>
+<div class="cstat"><span class="cstat-num">High</span><span class="cstat-label">Satisfaction</span></div>
+</div>
+<ul class="compare-list">
+<li><span class="pro">+</span> Works for every language</li>
+<li><span class="pro">+</span> Huge extension ecosystem</li>
+<li><span class="pro">+</span> Free &amp; cross-platform</li>
+<li><span class="con">−</span> Heavy RAM usage</li>
+</ul>
+<div class="compare-best"><strong>Best for:</strong> Everyone — beginners to seniors.</div>
+</div>
+
+<div class="compare-card">
+<div class="compare-head">
+<span class="fw-icon fw-cursor">🤖</span>
+<div>
+<h3>Cursor</h3>
+<span class="compare-tag">AI-Native IDE</span>
+</div>
+</div>
+<div class="compare-stats">
+<div class="cstat"><span class="cstat-num">26%</span><span class="cstat-label">Usage</span></div>
+<div class="cstat"><span class="cstat-num">Rising</span><span class="cstat-label">Trend</span></div>
+</div>
+<ul class="compare-list">
+<li><span class="pro">+</span> Built for AI workflows</li>
+<li><span class="pro">+</span> Grew 11% → 26% in a year</li>
+<li><span class="pro">+</span> Deep code understanding</li>
+<li><span class="con">−</span> Subscription for full power</li>
+</ul>
+<div class="compare-best"><strong>Best for:</strong> AI-first developers.</div>
+</div>
+
+<div class="compare-card">
+<div class="compare-head">
+<span class="fw-icon fw-neovim">🟢</span>
+<div>
+<h3>Neovim</h3>
+<span class="compare-tag">Cult Favorite</span>
+</div>
+</div>
+<div class="compare-stats">
+<div class="cstat"><span class="cstat-num">~15%</span><span class="cstat-label">Usage</span></div>
+<div class="cstat"><span class="cstat-num">Loyal</span><span class="cstat-label">Community</span></div>
+</div>
+<ul class="compare-list">
+<li><span class="pro">+</span> Keyboard-driven speed</li>
+<li><span class="pro">+</span> Runs in terminal</li>
+<li><span class="pro">+</span> Highly customizable</li>
+<li><span class="con">−</span> Steep learning curve</li>
+</ul>
+<div class="compare-best"><strong>Best for:</strong> Power users and terminal enthusiasts.</div>
+</div>
+
+<div class="compare-card">
+<div class="compare-head">
+<span class="fw-icon fw-claude">✨</span>
+<div>
+<h3>Claude Code</h3>
+<span class="compare-tag">AI Terminal</span>
+</div>
+</div>
+<div class="compare-stats">
+<div class="cstat"><span class="cstat-num">44%</span><span class="cstat-label">Usage</span></div>
+<div class="cstat"><span class="cstat-num">Doubled</span><span class="cstat-label">In 2025</span></div>
+</div>
+<ul class="compare-list">
+<li><span class="pro">+</span> Runs in terminal</li>
+<li><span class="pro">+</span> Doubled usage in 2025</li>
+<li><span class="pro">+</span> Multi-file edits</li>
+<li><span class="con">−</span> Requires API costs</li>
+</ul>
+<div class="compare-best"><strong>Best for:</strong> AI agent in your terminal.</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="summary" class="section section-alt">
+<div class="container">
+<div class="section-header">
+<span class="section-number">06</span>
+<h2>Summary</h2>
+<p class="section-desc">What IT Gate  concludes from the 2025 data.</p>
+</div>
+
+<div class="summary-grid">
+<div class="summary-card">
+<span class="summary-icon">🏆</span>
+<h4>React Still Wins</h4>
+<p>Highest usage and largest job market, though Svelte leads in satisfaction.</p>
+</div>
+<div class="summary-card">
+<span class="summary-icon">🐘</span>
+<h4>PostgreSQL Is Default</h4>
+<p>Overtook MySQL in 2025. Start every new project with it.</p>
+</div>
+<div class="summary-card">
+<span class="summary-icon">📘</span>
+<h4>TypeScript Is Standard</h4>
+<p>40% of developers now write TypeScript exclusively.</p>
+</div>
+<div class="summary-card">
+<span class="summary-icon">⚡</span>
+<h4>Vite Replaced Webpack</h4>
+<p>98% satisfaction vs 26%. New projects should start with Vite.</p>
+</div>
+<div class="summary-card">
+<span class="summary-icon">🤖</span>
+<h4>AI Is Part of the Stack</h4>
+<p>Cursor, Claude Code, and AI-generated code are now standard.</p>
+</div>
+<div class="summary-card">
+<span class="summary-icon">🎯</span>
+<h4>Choose by Problem</h4>
+<p>No universal "best" tool. Match the tech to your project's needs.</p>
+</div>
+</div>
+
+
+</div>
+</section>
+
+
+<section id="recommendation" class="section">
+<div class="container">
+<div class="section-header">
+<span class="section-number">07</span>
+<h2>Final Recommendation</h2>
+<p class="section-desc">Based on all 2025 data — here is the IT Gate  recommended path.</p>
+</div>
+
+<div class="recommend-hero">
+<div class="recommend-badge">⭐ The Safe Default</div>
+<h3 class="recommend-stack">
+React <span class="plus">+</span> Next.js <span class="plus">+</span> TypeScript<br>
+Node.js <span class="plus">+</span> PostgreSQL <span class="plus">+</span> Vite
+</h3>
+<p class="recommend-note">
+If you don't know where to start — start here. This stack gives you the largest job market, fastest learning curve, and best long-term support.
+</p>
+</div>
+
+<div class="recommend-why">
+<div class="why-card">
+<span class="why-icon">⚛</span>
+<h4>React + Next.js</h4>
+<p>Largest job market and best Full Stack support.</p>
+</div>
+<div class="why-card">
+<span class="why-icon">📘</span>
+<h4>TypeScript</h4>
+<p>40% of developers now use it exclusively. The new standard.</p>
+</div>
+<div class="why-card">
+<span class="why-icon">🟢</span>
+<h4>Node.js</h4>
+<p>Same language on both sides. Less context switching.</p>
+</div>
+<div class="why-card">
+<span class="why-icon">🐘</span>
+<h4>PostgreSQL</h4>
+<p>Highest admiration (65.5%). Overtook MySQL in 2025.</p>
+</div>
+<div class="why-card">
+<span class="why-icon">⚡</span>
+<h4>Vite</h4>
+<p>98% satisfaction. The fastest build tool available.</p>
+</div>
+</div>
+
+<div class="recommend-table-wrap">
+<h3 class="recommend-table-title">Recommended Stack by Project Type</h3>
+<div class="table-scroll">
+<table class="recommend-table">
+<thead>
+<tr>
+<th>Project Type</th>
+<th>Recommended Stack</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>New web application</strong></td>
+<td><span class="rec-chip">React</span> <span class="rec-chip">Next.js</span> <span class="rec-chip">TypeScript</span> <span class="rec-chip">PostgreSQL</span></td>
+<td>Best balance of jobs, performance, and flexibility.</td>
+</tr>
+<tr>
+<td><strong>Fast prototype / small team</strong></td>
+<td><span class="rec-chip">Vue</span> <span class="rec-chip">Vite</span> <span class="rec-chip">SQLite</span></td>
+<td>Fastest to build and easiest to learn.</td>
+</tr>
+<tr>
+<td><strong>AI / Data application</strong></td>
+<td><span class="rec-chip">React</span> <span class="rec-chip">Python</span> <span class="rec-chip">FastAPI</span> <span class="rec-chip">PostgreSQL</span></td>
+<td>Python is the #1 language for AI and data.</td>
+</tr>
+<tr>
+<td><strong>Enterprise system</strong></td>
+<td><span class="rec-chip">Angular</span> <span class="rec-chip">Spring Boot</span> <span class="rec-chip">PostgreSQL</span></td>
+<td>Strict architecture, high security, proven scale.</td>
+</tr>
+<tr>
+<td><strong>E-commerce / CMS</strong></td>
+<td><span class="rec-chip">Laravel</span> <span class="rec-chip">MySQL</span> <span class="rec-chip">Vue</span></td>
+<td>WordPress and Laravel dominate this market.</td>
+</tr>
+<tr>
+<td><strong>Real-time / Chat app</strong></td>
+<td><span class="rec-chip">React</span> <span class="rec-chip">Node.js</span> <span class="rec-chip">Redis</span> <span class="rec-chip">PostgreSQL</span></td>
+<td>Node.js is built for real-time performance.</td>
+</tr>
+<tr>
+<td><strong>Content site / Blog</strong></td>
+<td><span class="rec-chip">Astro</span> <span class="rec-chip">Markdown</span> <span class="rec-chip">Vite</span></td>
+<td>Fastest loading and best SEO results.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+
+</div>
+</section>
+
+<footer class="footer">
+<div class="container">
+<div class="footer-brand-block">
+<span class="footer-brand">IT <span class="brand-accent">Gate</span></span>
+<span class="footer-sub"></span>
+</div>
+<p class="footer-tagline">Engineering insights for modern developers.</p>
+<p class="footer-source">
+Built on data from <a href="https://survey.stackoverflow.co/2025" target="_blank" rel="noopener">Stack Overflow Survey 2025</a>
+&amp; <a href="https://2025.stateofjs.com" target="_blank" rel="noopener">State of JS 2025</a>
+</p>
+<p class="footer-copy">© 2025 IT Gate  · All rights reserved</p>
+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
